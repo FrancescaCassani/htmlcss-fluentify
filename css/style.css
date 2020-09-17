@@ -27,7 +27,7 @@ body {
 }
 
 .w-50 {
-  50%;
+  width: 50%;
 }
 
 /* Tipografia */
@@ -135,6 +135,6 @@ h3{
 
 .text-jumbotron h1 {
   color: white;
-  font-size: 36px;
+  font-size: 56px;
   margin-bottom: 35px;
 }
