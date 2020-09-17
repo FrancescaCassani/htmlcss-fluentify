@@ -1,0 +1,91 @@
+/* Impostazioni generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+/* Utilities */
+.contenitore {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.float-left {
+  float: left;
+}
+
+/* Tipografia */
+.text-center {
+  text-align: center;
+}
+
+
+
+
+/* Menu */
+.text-inline li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.text-inline li:first-child {
+  padding-left: 0;
+}
+
+.text-inline li:last-child {
+  padding-right: 0;
+}
+
+/* Header */
+.main-header {
+  background: #0c325a;
+  height: 560px;
+  background-image: url("../img/background-header.png");
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.menu-nav {
+  font-size: 12px;
+  line-height: 80px;
+  text-transform: uppercase;
+}
+
+.menu-nav img {
+  vertical-align: middle;
+}
+
+.menu-nav li a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.menu-nav .header-logo {
+  width: 15%;
+}
+
+.menu-nav .header-nav-centrale {
+  width: 45%;
+}
+
+.menu-nav .header-nav-right {
+  width: 40%;
+}
+
+.menu-nav .header-nav-right {
+  text-align: right;
+}
