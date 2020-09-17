@@ -89,3 +89,19 @@ body {
 .menu-nav .header-nav-right {
   text-align: right;
 }
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  line-height: 20px;
+  border: 1px solid white;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.btn-green{
+  border: none;
+  background: #2eb82e;
+}
