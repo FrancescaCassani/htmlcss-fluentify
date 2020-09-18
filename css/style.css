@@ -26,6 +26,12 @@ body {
   float: left;
 }
 
+.col-3 {
+  float: left;
+  width: calc(100% / 3);
+  padding: 0 20px;
+}
+
 .w-50 {
   width: 50%;
 }
@@ -40,7 +46,6 @@ h2,
 h3{
   font-weight: 500;
 }
-
 
 /* Menu */
 .text-inline li {
@@ -137,4 +142,47 @@ h3{
   color: white;
   font-size: 56px;
   margin-bottom: 35px;
+}
+
+/* Main */
+.fluency {
+  background: #d3d3d3;
+  padding: 30px 15px;
+}
+
+.fluency h2 {
+  font-size: 30px;
+}
+
+.fluency p {
+  line-height: 70px;
+}
+
+/* Info */
+.info {
+  padding: 40px 25px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.info img {
+  height: 150px;
+  margin-bottom: 25px;
+}
+
+.info h3 {
+  font-size: 30px;
+  color: #2eb82e;
+}
+
+.info h3::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 1px;
+  margin: 25px auto;
+  background: grey;
+}
+
+.info p {
+  line-height: 22px;
 }
