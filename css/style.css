@@ -36,6 +36,16 @@ body {
   width: 50%;
 }
 
+.menu-nav li a:not(.btn):hover {
+  color: yellow;
+}
+.menu-nav li a:not(.btn):focus {
+  color: aqua;
+}
+.menu-nav li a:not(.btn):active {
+  color: violet;
+}
+
 /* Tipografia */
 .text-center {
   text-align: center;
@@ -170,7 +180,7 @@ h3{
 }
 
 .info h3 {
-  font-size: 30px;
+  font-size: 28px;
   color: #2eb82e;
 }
 
@@ -185,4 +195,24 @@ h3{
 
 .info p {
   line-height: 22px;
+}
+
+/* Piano personalizzato */
+.plan .col {
+  padding: 50px;
+}
+
+.plan h2 {
+  font-size: 36px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  color: #2eb82e;
+}
+
+.plan a {
+  font-size: 13px;
+}
+
+.plan p {
+  margin-bottom: 20px;
 }
