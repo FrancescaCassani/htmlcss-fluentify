@@ -57,6 +57,7 @@ h3{
   font-weight: 500;
 }
 
+
 /* Menu */
 .text-inline li {
   display: inline-block;
@@ -206,7 +207,6 @@ h3{
   font-size: 36px;
   line-height: 1.2;
   margin-bottom: 15px;
-  color: #2eb82e;
 }
 
 .plan a {
@@ -215,4 +215,60 @@ h3{
 
 .plan p {
   margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  height: 150px;
+  padding: 30px 15px;
+  text-align: center;
+  background: #d3d3d3;
+}
+
+footer h2 {
+  font-size: 36px;
+}
+
+footer p {
+  font-size: 13px;
+}
+
+footer select {
+  font-size: 16px;
+}
+
+footer .text-inline .selezione {
+  width: 180px;
+  background: #d3d3d3;
+  border: none;
+}
+
+footer .text-inline li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+footer .text-inline li:first-child {
+  padding-left: 0;
+}
+
+footer .text-inline li:last-child {
+  padding-right: 0;
+}
+
+/* HELP */
+.help {
+  position: fixed;
+  bottom: 0;
+  right: 15%;
+}
+
+.help a {
+  display: inline-block;
+  padding: 12px;
+  color: white;
+  background: #2eb82e;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 5px 5px 0 0;
 }
